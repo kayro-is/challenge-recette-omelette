@@ -1,0 +1,81 @@
+body {
+  background-color: #FCD9B8;
+  margin: 0;
+  padding: 0;
+  font-family: 'YoungSerif-Regular', sans-serif;
+}
+
+/* En-tête */
+header {
+  margin: 4rem auto;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 40rem;
+  width: 90%;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 40rem;
+  border-radius: 20px;
+}
+
+.title-introduction {
+  padding: 20px;
+}
+
+.preparation-time {
+  margin-left: 40px;
+}
+
+/* Titre des ingrédients */
+.ingredients-title {
+  border-collapse: collapse;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Titre des instructions */
+.instruction-title {
+  border-collapse: collapse;
+  border-bottom: 2px solid #ddd;
+}
+
+h2, td {
+  color: #AE445A;
+}
+
+li::marker {
+  color: #AE445A;
+}
+
+/* Tableau */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+tr:last-child td,
+tr:last-child th {
+  border-bottom: none;
+}
+
+/* Pied de page */
+footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
